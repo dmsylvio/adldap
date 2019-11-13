@@ -1,0 +1,42 @@
+{
+    "name": "dmsylvio/adldap",
+    "description": "Craft3 LDAP Login",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "LDAP",
+        "Active Directory",
+        "login LDAP"
+    ],
+    "support": {
+        "docs": "https://github.com/dmsylvio/adldap/blob/master/README.md",
+        "issues": "https://github.com/dmsylvio/adldap/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sylvio Neto",
+            "homepage": "https://github.com/dmsylvio"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "dmsylvio\\adldap\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "Login LDAP",
+        "handle": "adldap",
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/dmsylvio/adldap/master/CHANGELOG.md",
+        "class": "dmsylvio\\adldap\\TimeAgo"
+    }
+}
