@@ -33,8 +33,11 @@
         }
     },
     "extra": {
-        "name": "LDAP LOGIN",
+        "name": "Ldap Login",
         "handle": "adldap",
-        "documentationUrl": "https://raw.githubusercontent.com/dmsylvio/adldap/master/README.md"
+        "hasCpSettings": false,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/dmsylvio/adldap/master/CHANGELOG.md",
+        "class": "dmsylvio\\adldap\\AdLdap"
     }
 }
