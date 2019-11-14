@@ -23,7 +23,6 @@ class Settings extends Model
      *
      * @var string
      */
-    public $someField;
     public $group;
     public $accountSuffix;
     public $adminAccountSuffix;
@@ -48,12 +47,11 @@ class Settings extends Model
     public function rules()
     {
         return [
-            ['someField', 'group', 'accountSuffix', 'adminAccountSuffix', 'accountPrefix', 'baseDN', 'domainControllers', 'username', 'password', 'string'],
+            ['group', 'accountSuffix', 'adminAccountSuffix', 'accountPrefix', 'baseDN', 'domainControllers', 'username', 'password', 'string'],
             [['ssl', 'tls', 'referrals'], 'boolean'],
             ['port', 'number'],
             [['ssl', 'tls', 'referrals'], 'default', 'value' => false],
-            [['port'], 'default', 'value' => 389],
-            ['someField', 'default', 'value' => 'Some Default']
+            [['port'], 'default', 'value' => 389]
         ];
     }
 }

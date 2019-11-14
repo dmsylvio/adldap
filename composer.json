@@ -21,6 +21,7 @@
       }
   ],
   "require": {
+	"adldap2/adldap2": "^10.0.0"
   },
   "autoload": {
       "psr-4": {
