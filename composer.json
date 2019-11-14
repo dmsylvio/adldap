@@ -1,43 +1,44 @@
 {
-    "name": "dmsylvio/adldap",
-    "description": "Craft 3 LDAP LOGIN",
-    "type": "craft-plugin",
-    "version": "1.0.3",
-    "keywords": [
-        "craft",
-        "cms",
-        "craftcms",
-        "craft-plugin",
-        "AD",
-        "LDAP",
-        "login",
-        "Active Directory"
-    ],
-    "support": {
-        "docs": "https://github.com/dmsylvio/adldap/blob/master/README.md",
-        "issues": "https://github.com/dmsylvio/adldap/issues"
-    },
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Sylvio Neto",
-            "homepage": "https://github.com/dmsylvio"
-        }
-    ],
-    "require": {
-        "craftcms/cms": "^3.0.0"
-    },
-    "autoload": {
-        "psr-4": {
+  "name": "dmsylvio/adldap",
+  "description": "Craft 3 LDAP LOGIN",
+  "type": "craft-plugin",
+  "version": "1.2.0",
+  "keywords": [
+    "craft",
+    "cms",
+    "craftcms",
+    "craft-plugin",
+    "AD",
+    "LDAP",
+    "login",
+    "Active Directory"
+  ],
+  "license": "MIT",
+  "authors": [
+      {
+          "name": "Sylvio Neto",
+          "homepage": "https://github.com/dmsylvio"
+      }
+  ],
+  "require": {
+  },
+  "autoload": {
+      "psr-4": {
           "dmsylvio\\adldap\\": "src/"
-        }
-    },
-    "extra": {
-        "name": "Ldap Login",
-        "handle": "adldap",
-        "hasCpSettings": false,
-        "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/dmsylvio/adldap/master/CHANGELOG.md",
-        "class": "dmsylvio\\adldap\\AdLdap"
-    }
+      }
+  },
+  "extra": {
+      "name": "Ldap Login",
+      "handle": "adldap",
+      "version": "1.0.0",
+      "schemaVersion": "1.0.0",
+      "hasSettings": true,
+      "hasCpSection": true,
+      "developer": "Sylvio Neto",
+      "developerUrl": "https://github.com/dmsylvio",
+      "description": "Craft 3 LDAP LOGIN.",
+      "documentationUrl": "https://github.com/dmsylvio/adldap/blob/master/README.md",
+      "changelogUrl": "https://raw.githubusercontent.com/dmsylvio/adldap/master/CHANGELOG.md",
+      "class": "dmsylvio\\adldap\\Plugin"
+  }
 }
