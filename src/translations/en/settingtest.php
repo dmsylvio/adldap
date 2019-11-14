@@ -5,7 +5,7 @@
  * Test of settings page.
  *
  * @link      http://dmsylvio.com
- * @copyright Copyright (c) 2017 John F Morton
+ * @copyright Copyright (c) 2019 Sylvio Neto
  */
 
 /**
